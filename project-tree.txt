@@ -1,0 +1,1227 @@
+Folder PATH listing
+Volume serial number is 000000A7 D403:F2A3
+C:\USERS\HP\DESKTOP\SPEDO\SPEDO-REAL-ESTATE\SRC
+|   types.zip
+|   
++---ai
+|   |   ConversationMemory.ts
+|   |   LanguageRegistry.ts
+|   |   PromptTemplates.ts
+|   |   PropertyAgent.ts
+|   |   RecommendationEngine.ts
+|   |   SearchInterpreter.ts
+|   |   SpedoAssistant.ts
+|   |   types.ts
+|   |   
+|   +---dictionaries
+|   |       ar.ts
+|   |       de.ts
+|   |       en.ts
+|   |       es.ts
+|   |       fr.ts
+|   |       it.ts
+|   |       npm run build.txt
+|   |       pl.ts
+|   |       ru.ts
+|   |       sk.ts
+|   |       tr.ts
+|   |       
+|   +---interpreter
+|   |       ArabicInterpreter.ts
+|   |       EnglishInterpreter.ts
+|   |       FrenchInterpreter.ts
+|   |       GermanInterpreter.ts
+|   |       ItalianInterpreter.ts
+|   |       LanguageDetector.ts
+|   |       RussianInterpreter.ts
+|   |       TurkishInterpreter.ts
+|   |       UniversalInterpreter.ts
+|   |       
+|   \---voice
+|           SpeechRecognizer.ts
+|           SpeechSynthesizer.ts
+|           VoiceAssistant.ts
+|           
++---application
+|   \---project
+|           index.ts
+|           ProjectApplication.ts
+|           ProjectCardMapper.ts
+|           ProjectCardModel.ts
+|           ProjectContext.ts
+|           ProjectDetailsApplication.ts
+|           ProjectDetailsMapper.ts
+|           ProjectDetailsModel.ts
+|           ProjectProvider.tsx
+|           ProjectStatisticsApplication.ts
+|           useProject.ts
+|           
++---assets
++---components
+|   |   New Text Document.txt
+|   |   
+|   +---ai
+|   |       PropertyMatcher.tsx
+|   |       SpedoChatButton.tsx
+|   |       SpedoChatWidget.tsx
+|   |       SpedoChatWindow.tsx
+|   |       SpedoHumanAvatar.tsx
+|   |       SpedoHumanControls.tsx
+|   |       SpedoHumanWidget.tsx
+|   |       SpedoMessage.tsx
+|   |       SpedoVoiceButton.tsx
+|   |       types.ts
+|   |       
+|   +---dashboard
+|   |   \---editors
+|   |           OptionEditor.tsx
+|   |           
+|   +---destinations
+|   |       RedSeaDestinations.tsx
+|   |       
+|   +---faq
+|   |       FAQAccordion.tsx
+|   |       FAQActionButtons.tsx
+|   |       FAQAIAssistant.tsx
+|   |       FAQAIChat.tsx
+|   |       FAQCategories.tsx
+|   |       FAQContact.tsx
+|   |       FAQCTA.tsx
+|   |       FAQHero.tsx
+|   |       FAQJourney.tsx
+|   |       FAQKnowledgeCenter.tsx
+|   |       FAQLeadCapture.tsx
+|   |       FAQLeadSuccess.tsx
+|   |       FAQLegalTerms.tsx
+|   |       FAQRecommendedProjects.tsx
+|   |       FAQSchema.tsx
+|   |       FAQSearch.tsx
+|   |       FAQSuggestedQuestions.tsx
+|   |       FAQWhySpedo.tsx
+|   |       index.ts
+|   |       metadata.ts
+|   |       SmartRecommendedProjects.tsx
+|   |       
+|   +---footer
+|   |       Footer.tsx
+|   |       
+|   +---forms
+|   |       ConsultationForm.tsx
+|   |       ContactForm.tsx
+|   |       NumberField.tsx
+|   |       SelectField.tsx
+|   |       ShortlistForm.tsx
+|   |       SwitchField.tsx
+|   |       TextAreaField.tsx
+|   |       TextField.tsx
+|   |       
+|   +---header
+|   |       FloatingHeader.tsx
+|   |       LanguageSwitcher.tsx
+|   |       MobileMenu.tsx
+|   |       NavMenu.tsx
+|   |       
+|   +---hero
+|   |       HeroSection.tsx
+|   |       
+|   +---home
+|   |       FeaturedBlueCrest.tsx
+|   |       FeaturedHurghadaHeights.tsx
+|   |       FeaturedMarkResort.tsx
+|   |       FeaturedMarvento.tsx
+|   |       FeaturedProjectsGrid.tsx
+|   |       FinalCTA.tsx
+|   |       ProcessTimeline.tsx
+|   |       ServicesGrid.tsx
+|   |       ServicesHub.tsx
+|   |       Testimonials.tsx
+|   |       WhyInvestRedSea.tsx
+|   |       WhySpedo.tsx
+|   |       
+|   +---layout
+|   |       Container.tsx
+|   |       Footer.tsx
+|   |       Section.tsx
+|   |       
+|   +---pages
+|   |       AreasPage.tsx
+|   |       
+|   +---projects
+|   |       FeaturedProjects.tsx
+|   |       PriceCard.tsx
+|   |       ProjectAmenities.tsx
+|   |       ProjectCard.tsx
+|   |       ProjectContact.tsx
+|   |       ProjectGallery.tsx
+|   |       ProjectHero.tsx
+|   |       ProjectInvestment.tsx
+|   |       ProjectLocation.tsx
+|   |       ProjectOverview.tsx
+|   |       ProjectPriceTable.tsx
+|   |       ProjectSidebar.tsx
+|   |       ProjectStatistics.tsx
+|   |       ProjectTable.tsx
+|   |       UnitCard.tsx
+|   |       
+|   +---property
+|   |       PropertyActions.tsx
+|   |       PropertyAdminPanel.tsx
+|   |       PropertyCard.tsx
+|   |       PropertyStatusBadge.tsx
+|   |       
+|   +---rent
+|   |       RentCategories.tsx
+|   |       RentFeatured.tsx
+|   |       RentHero.tsx
+|   |       RentInquiryForm.tsx
+|   |       
+|   +---search
+|   |       BudgetCalculator.tsx
+|   |       InvestmentCalculator.tsx
+|   |       InvestmentFinder.tsx
+|   |       NoResults.tsx
+|   |       ProjectSearch.tsx
+|   |       ProjectSearchClient.tsx
+|   |       ProjectSelector.tsx
+|   |       PropertySearch.tsx
+|   |       SortSelector.tsx
+|   |       SpedoCoreTest.tsx
+|   |       
+|   +---services
+|   |       ServicesGrid.tsx
+|   |       
+|   +---spedo
+|   |   |   index.ts
+|   |   |   SpedoGrid.tsx
+|   |   |   SpedoMetric.tsx
+|   |   |   SpedoTag.tsx
+|   |   |   
+|   |   +---buttons
+|   |   |       GoldButton.tsx
+|   |   |       OutlineButton.tsx
+|   |   |       
+|   |   +---cards
+|   |   |       Badge.tsx
+|   |   |       GoldButton.tsx
+|   |   |       SpedoCard.tsx
+|   |   |       SpedoFeatureCard.tsx
+|   |   |       SpedoInfoCard.tsx
+|   |   |       SpedoProjectCard.tsx
+|   |   |       SpedoStatCard.tsx
+|   |   |       
+|   |   +---display
+|   |   |       Accordion.tsx
+|   |   |       Badge.tsx
+|   |   |       SectionHeader.tsx
+|   |   |       
+|   |   +---layout
+|   |   |       SpedoContainer.tsx
+|   |   |       SpedoSection.tsx
+|   |   |       
+|   |   \---sections
+|   +---testimonials
+|   |       TestimonialsSection.tsx
+|   |       
+|   +---ui
+|   |   |   index.ts
+|   |   |   
+|   |   +---Badge
+|   |   |       Badge.tsx
+|   |   |       
+|   |   +---Button
+|   |   |       Button.tsx
+|   |   |       
+|   |   +---Container
+|   |   |       Container.tsx
+|   |   |       
+|   |   +---CTAButton
+|   |   |       CTAButton.tsx
+|   |   |       
+|   |   +---GlassCard
+|   |   |       GlassCard.tsx
+|   |   |       
+|   |   +---SectionSubtitle
+|   |   |       SectionSubtitle.tsx
+|   |   |       
+|   |   +---SectionTitle
+|   |   |       SectionTitle.tsx
+|   |   |       
+|   |   \---StatCard
+|   |           StatCard.tsx
+|   |           
+|   \---whatsapp
+|           WhatsappButton.tsx
+|           
++---config
+|       company.ts
+|       languages.ts
+|       navigation.ts
+|       residential.ts
+|       theme.ts
+|       
++---constants
+|       currencies.ts
+|       unitTypes.ts
+|       viewTypes.ts
+|       
++---core
+|   |   Application.ts
+|   |   bootstrap.ts
+|   |   calculations.ts
+|   |   database.ts
+|   |   database.zip
+|   |   id.ts
+|   |   index.ts
+|   |   propertyFactory.ts
+|   |   propertyRepository.ts
+|   |   search.ts
+|   |   slug.ts
+|   |   
+|   +---ai-human
+|   |       AvatarEngine.ts
+|   |       HumanAssistant.ts
+|   |       index.ts
+|   |       SpeechEngine.ts
+|   |       types.ts
+|   |       VoiceEngine.ts
+|   |       
+|   +---bootstrap
+|   |       projects.ts
+|   |       
+|   +---comparison
+|   |       CompareEngine.ts
+|   |       
+|   +---config
+|   |       Config.ts
+|   |       Configuration.ts
+|   |       Constants.ts
+|   |       defaultConfig.ts
+|   |       Environment.ts
+|   |       Features.ts
+|   |       index.ts
+|   |       RuntimeConfig.ts
+|   |       
+|   +---data
+|   |       DataPipeline.ts
+|   |       DataValidationEngine.ts
+|   |       
+|   +---database
+|   |       Database.ts
+|   |       DataQualityEngine.ts
+|   |       index.ts
+|   |       Registry.ts
+|   |       
+|   +---discovery
+|   |       ProjectDefinition.ts
+|   |       ProjectDiscovery.ts
+|   |       
+|   +---display
+|   |       AreaDisplay.ts
+|   |       PriceDisplay.ts
+|   |       StatusDisplay.ts
+|   |       ViewDisplay.ts
+|   |       
+|   +---engines
+|   |   |   comparisonEngine.ts
+|   |   |   FAQEngine.ts
+|   |   |   filterEngine.ts
+|   |   |   investmentEngine.ts
+|   |   |   InvestorEngine.ts
+|   |   |   priceEngine.ts
+|   |   |   searchEngine.ts
+|   |   |   sort.ts
+|   |   |   statisticsEngine.ts
+|   |   |   
+|   |   \---media
+|   |           index.ts
+|   |           MediaContracts.ts
+|   |           MediaEngine.ts
+|   |           MediaFactory.ts
+|   |           MediaManager.ts
+|   |           MediaRegistry.ts
+|   |           types.ts
+|   |           
+|   +---events
+|   |       Event.ts
+|   |       EventBus.ts
+|   |       EventHandler.ts
+|   |       index.ts
+|   |       
+|   +---factory
+|   |       New Text Document.txt
+|   |       PropertyFactory.ts
+|   |       
+|   +---importer
+|   |       BedroomParser.ts
+|   |       DuplicateDetector.ts
+|   |       ExcelImporter.ts
+|   |       FloorParser.ts
+|   |       ImporterEngine.ts
+|   |       ImporterManager.ts
+|   |       NumberParser.ts
+|   |       PriceParser.ts
+|   |       TextParser.ts
+|   |       ViewParser.ts
+|   |       
+|   +---investment
+|   |       InvestmentEngine.ts
+|   |       
+|   +---kernel
+|   |   |   BootManager.ts
+|   |   |   Container.ts
+|   |   |   EventBus.ts
+|   |   |   Kernel.ts
+|   |   |   Module.ts
+|   |   |   ModuleRegistry.ts
+|   |   |   Runtime.ts
+|   |   |   
+|   |   \---contracts
+|   |           Engine.ts
+|   |           Module.ts
+|   |           Plugin.ts
+|   |           Repository.ts
+|   |           Service.ts
+|   |           
+|   +---modules
+|   |   |   SearchModule.ts
+|   |   |   
+|   |   +---blog
+|   |   +---commercial
+|   |   +---developers
+|   |   +---hotels
+|   |   +---projects
+|   |   \---residential
+|   +---page
+|   |       ComponentRegistry.ts
+|   |       index.ts
+|   |       Page.ts
+|   |       PageComposer.ts
+|   |       PageRegistry.ts
+|   |       PageRenderer.ts
+|   |       PageSection.ts
+|   |       
+|   +---pricing
+|   |       CurrencyEngine.ts
+|   |       index.ts
+|   |       PaymentEngine.ts
+|   |       PriceCleaner.ts
+|   |       PriceEngine.ts
+|   |       PriceReport.ts
+|   |       PriceResolver.ts
+|   |       PriceValidator.ts
+|   |       
+|   +---project
+|   |       bootstrap.ts
+|   |       index.ts
+|   |       Project.ts
+|   |       ProjectAvailability.ts
+|   |       ProjectCache.ts
+|   |       ProjectEngine.ts
+|   |       ProjectFactory.ts
+|   |       ProjectFilters.ts
+|   |       ProjectLoader.ts
+|   |       ProjectManifest.ts
+|   |       ProjectModel.ts
+|   |       ProjectPricing.ts
+|   |       ProjectRegistry.ts
+|   |       ProjectRepository.ts
+|   |       ProjectRuntime.ts
+|   |       ProjectSearch.ts
+|   |       ProjectSeo.ts
+|   |       ProjectService.ts
+|   |       ProjectStatistics.ts
+|   |       ProjectValidator.ts
+|   |       
+|   +---property
+|   |       LocalPropertyRepository.ts
+|   |       OnlinePropertyRepository.ts
+|   |       PropertyRepository.ts
+|   |       PropertyStatusEngine.ts
+|   |       
+|   +---query
+|   |       QueryBuilder.ts
+|   |       
+|   +---runtime
+|   |       Runtime.ts
+|   |       
+|   +---search
+|   |       getAllProjects.ts
+|   |       getAllUnits.ts
+|   |       getProjectBySlug.ts
+|   |       getProjectOptions.ts
+|   |       GlobalSearchEngine.ts
+|   |       index.ts
+|   |       ProjectOption.ts
+|   |       ProjectSearchClientV2.tsx
+|   |       PropertyIndex.ts
+|   |       SearchEngine.ts
+|   |       SearchFilters.ts
+|   |       SearchMapper.ts
+|   |       SearchModel.ts
+|   |       SearchService.ts
+|   |       SearchSort.ts
+|   |       SearchUnit.ts
+|   |       sortUnits.ts
+|   |       UniversalProjectSearch.tsx
+|   |       
+|   +---services
+|   |       SearchService.ts
+|   |       
+|   +---statistics
+|   |       StatisticsEngine.ts
+|   |       
+|   \---storage
+|       |   client.ts
+|       |   engine.ts
+|       |   index.ts
+|       |   provider.ts
+|       |   types.ts
+|       |   utils.ts
+|       |   
+|       \---providers
+|               cloudinary.ts
+|               r2.ts
+|               
++---data
+|   |   areaDetails.ts
+|   |   areas.ts
+|   |   benefits.ts
+|   |   countries.ts
+|   |   database.ts
+|   |   developers.ts
+|   |   faq.ts
+|   |   faq.zip
+|   |   featuredProjects.ts
+|   |   paymentPlans.ts
+|   |   process.ts
+|   |   projectRegistry.ts
+|   |   projects.ts
+|   |   services.ts
+|   |   stats.ts
+|   |   
+|   +---developers
+|   |       kayan.ts
+|   |       
+|   +---faq
+|   |       afterSales.ts
+|   |       allQuestions.ts
+|   |       buyingProcessFAQ.ts
+|   |       europeanBuyers.ts
+|   |       index.ts
+|   |       investment.ts
+|   |       legal.ts
+|   |       livingInHurghada.ts
+|   |       ownership.ts
+|   |       payment.ts
+|   |       rental.ts
+|   |       residency.ts
+|   |       roiFAQ.ts
+|   |       safety.ts
+|   |       taxesFAQ.ts
+|   |       viewing.ts
+|   |       
+|   +---knowledge
+|   |   |   aliases.ts
+|   |   |   investors.ts
+|   |   |   
+|   |   \---projects
+|   |           blueCrest.ts
+|   |           hurghadaHeights.ts
+|   |           index.ts
+|   |           markResort.ts
+|   |           marvento.ts
+|   |           
+|   +---listings
+|   |   |   index.ts
+|   |   |   navigation.ts
+|   |   |   propertyFields.ts
+|   |   |   propertyRegistry.ts
+|   |   |   propertyTypes.ts
+|   |   |   residential.zip
+|   |   |   types.ts
+|   |   |   
+|   |   +---commercial
+|   |   |       cafes.ts
+|   |   |       index.ts
+|   |   |       listings.ts
+|   |   |       
+|   |   \---residential
+|   |           index.ts
+|   |           listings.ts
+|   |           
+|   +---projects
+|   |   |   bluecrest.ts
+|   |   |   filters.ts
+|   |   |   hurghadaHeights.ts
+|   |   |   index.ts
+|   |   |   markResort.ts
+|   |   |   marvento.ts
+|   |   |   ProjectPlugin.ts
+|   |   |   raw.ts
+|   |   |   recommended.ts
+|   |   |   search.ts
+|   |   |   statistics.ts
+|   |   |   
+|   |   +---blue-crest
+|   |   |       availability.ts
+|   |   |       buildings.ts
+|   |   |       config.ts
+|   |   |       definition.ts
+|   |   |       documents.ts
+|   |   |       factoryProject.ts
+|   |   |       features.ts
+|   |   |       floors.ts
+|   |   |       gallery.ts
+|   |   |       images.ts
+|   |   |       importBlueCrest.ts
+|   |   |       importer.ts
+|   |   |       index.ts
+|   |   |       location.ts
+|   |   |       masterplan.ts
+|   |   |       metadata.ts
+|   |   |       paymentPlans.ts
+|   |   |       presentation.ts
+|   |   |       prices.ts
+|   |   |       project.ts
+|   |   |       raw.ts
+|   |   |       seo.ts
+|   |   |       statistics.ts
+|   |   |       units.ts
+|   |   |       views.ts
+|   |   |       
+|   |   +---hurghadaHeights
+|   |   |       availability.ts
+|   |   |       buildings.ts
+|   |   |       documents.ts
+|   |   |       factoryProject.ts
+|   |   |       features.ts
+|   |   |       floors.ts
+|   |   |       gallery.ts
+|   |   |       images.ts
+|   |   |       index.ts
+|   |   |       location.ts
+|   |   |       masterplan.ts
+|   |   |       metadata.ts
+|   |   |       parser.ts
+|   |   |       paymentPlans.ts
+|   |   |       prices.ts
+|   |   |       project.ts
+|   |   |       raw.ts
+|   |   |       seo.ts
+|   |   |       statistics.ts
+|   |   |       units.ts
+|   |   |       views.ts
+|   |   |       
+|   |   +---markResort
+|   |   |       availability.ts
+|   |   |       buildings.ts
+|   |   |       config.ts
+|   |   |       definition.ts
+|   |   |       documents.ts
+|   |   |       factoryProject.ts
+|   |   |       features.ts
+|   |   |       floors.ts
+|   |   |       gallery.ts
+|   |   |       images.ts
+|   |   |       importer.ts
+|   |   |       index.ts
+|   |   |       location.ts
+|   |   |       masterplan.ts
+|   |   |       metadata.ts
+|   |   |       parser.ts
+|   |   |       paymentPlans.ts
+|   |   |       presentation.ts
+|   |   |       prices.ts
+|   |   |       project.ts
+|   |   |       raw.ts
+|   |   |       seo.ts
+|   |   |       statistics.ts
+|   |   |       units.ts
+|   |   |       views.ts
+|   |   |       
+|   |   +---marvento
+|   |   |       availability.ts
+|   |   |       buildings.ts
+|   |   |       documents.ts
+|   |   |       factoryProject.ts
+|   |   |       features.ts
+|   |   |       floors.ts
+|   |   |       gallery.ts
+|   |   |       images.ts
+|   |   |       index.ts
+|   |   |       location.ts
+|   |   |       masterplan.ts
+|   |   |       metadata.ts
+|   |   |       parser.ts
+|   |   |       paymentPlans.ts
+|   |   |       prices.ts
+|   |   |       project.ts
+|   |   |       raw.ts
+|   |   |       seo.ts
+|   |   |       statistics.ts
+|   |   |       units.ts
+|   |   |       views.ts
+|   |   |       
+|   |   +---new-project
+|   |   |       ProjectCardModel.ts
+|   |   |       
+|   |   \---shared
+|   |           amenities.ts
+|   |           currencies.ts
+|   |           paymentTypes.ts
+|   |           statuses.ts
+|   |           unitTypes.ts
+|   |           views.ts
+|   |           
+|   +---property
+|   |       propertyRegistry.ts
+|   |       propertyTypes.ts
+|   |       
+|   +---rentals
+|   |       apartments.ts
+|   |       chalets.ts
+|   |       index.ts
+|   |       studios.ts
+|   |       types.ts
+|   |       villas.ts
+|   |       
+|   +---types
+|   |       property.ts
+|   |       
+|   \---utils
+|           currency.ts
+|           formatter.ts
+|           
++---design
+|       buttons.ts
+|       cards.ts
+|       colors.ts
+|       gradients.ts
+|       index.ts
+|       sections.ts
+|       shadows.ts
+|       spacing.ts
+|       typography.ts
+|       
++---engines
+|   \---search
+|           Filters.ts
+|           index.ts
+|           SearchEngine.ts
+|           SearchQuery.ts
+|           SearchResult.ts
+|           Sort.ts
+|           
++---features
+|   |   residential.zip
+|   |   
+|   +---auth
+|   |   +---components
+|   |   +---context
+|   |   +---Forgot Password
+|   |   +---Guards
+|   |   +---Hooks
+|   |   +---Login
+|   |   +---Permissions
+|   |   +---Reset Password
+|   |   +---Roles
+|   |   +---services
+|   |   +---Session
+|   |   +---types
+|   |   \---utils
+|   +---buy
+|   |   +---Benefits
+|   |   |       BuyBenefits.tsx
+|   |   |       
+|   |   +---BuyProjects
+|   |   |       BuyProjects.tsx
+|   |   |       
+|   |   +---CTA
+|   |   |       BuyCTA.tsx
+|   |   |       
+|   |   +---FAQ
+|   |   |       BuyFAQ.tsx
+|   |   |       
+|   |   +---Hero
+|   |   |       BuyHero.tsx
+|   |   |       
+|   |   +---Process
+|   |   |       BuyProcess.tsx
+|   |   |       
+|   |   +---Projects
+|   |   |       BuyProjects.tsx
+|   |   |       
+|   |   +---Stats
+|   |   |       BuyStats.tsx
+|   |   |       
+|   |   \---WhyRedSea
+|   |           WhyRedSea.tsx
+|   |           
+|   +---dashboard
+|   |   |   Listings.zip
+|   |   |   
+|   |   \---Listings
+|   |       |   AddListingForm.tsx
+|   |       |   CompactCommercialForm.tsx
+|   |       |   CompactResidentialForm.tsx
+|   |       |   PropertyInformation.tsx
+|   |       |   PropertySelector.tsx
+|   |       |   PropertyWizard.tsx
+|   |       |   
+|   |       +---Actions
+|   |       |       PublishButton.tsx
+|   |       |       SaveDraftButton.tsx
+|   |       |       
+|   |       +---BasicInfo
+|   |       |       PropertyDescription.tsx
+|   |       |       PropertyLocation.tsx
+|   |       |       PropertyPrice.tsx
+|   |       |       PropertyTitle.tsx
+|   |       |       
+|   |       +---Brochure
+|   |       |       BrochureUploader.tsx
+|   |       |       
+|   |       +---context
+|   |       |       PropertyBuilderContext.tsx
+|   |       |       
+|   |       +---deal-options
+|   |       |       CashForm.tsx
+|   |       |       DealCard.tsx
+|   |       |       InstallmentForm.tsx
+|   |       |       RentForm.tsx
+|   |       |       
+|   |       +---FloorPlans
+|   |       |       FloorPlansUploader.tsx
+|   |       |       
+|   |       +---hooks
+|   |       |       usePropertyBuilder.ts
+|   |       |       usePropertyForm.ts
+|   |       |       
+|   |       +---Media
+|   |       |       BrochureUploader.tsx
+|   |       |       CoverSelector.tsx
+|   |       |       FloorPlansUploader.tsx
+|   |       |       GalleryUploader.tsx
+|   |       |       MediaUploader.tsx
+|   |       |       PropertyMedia.tsx
+|   |       |       VideoUploader.tsx
+|   |       |       VirtualTourInput.tsx
+|   |       |       
+|   |       +---sections
+|   |       |       DealOptions.tsx
+|   |       |       GeneralSection.tsx
+|   |       |       LocationSection.tsx
+|   |       |       MarketingAssets.tsx
+|   |       |       MediaSection.tsx
+|   |       |       PropertyFeatures.tsx
+|   |       |       PropertyInformation.tsx
+|   |       |       PropertyLocation.tsx
+|   |       |       PublishSection.tsx
+|   |       |       SeoSection.tsx
+|   |       |       SpecificationsSection.tsx
+|   |       |       
+|   |       +---Selectors
+|   |       |       AmenitiesSection.tsx
+|   |       |       CategorySelector.tsx
+|   |       |       pecificationsSection.tsx
+|   |       |       PropertyTypeSelector.tsx
+|   |       |       SectorSelector.tsx
+|   |       |       
+|   |       +---types
+|   |       |       propertyForm.ts
+|   |       |       
+|   |       \---VirtualTour
+|   |               VirtualTourInput.tsx
+|   |               
+|   +---home
+|   |       HomePage.tsx
+|   |       
+|   +---listings
+|   |   |   index.ts
+|   |   |   
+|   |   +---Filters
+|   |   |       index.ts
+|   |   |       ListingsFilters.tsx
+|   |   |       
+|   |   +---Grid
+|   |   |       index.ts
+|   |   |       ListingCard.tsx
+|   |   |       ListingsGrid.tsx
+|   |   |       
+|   |   +---Hero
+|   |   |       index.ts
+|   |   |       ListingsHero.tsx
+|   |   |       
+|   |   \---hooks
+|   |           useListings.ts
+|   |           
+|   +---media-library
+|   |   |   index.ts
+|   |   |   MediaLibrary.tsx
+|   |   |   
+|   |   \---components
+|   |           MediaCard.tsx
+|   |           MediaGrid.tsx
+|   |           MediaPreview.tsx
+|   |           MediaToolbar.tsx
+|   |           
+|   +---media-picker
+|   |       index.ts
+|   |       MediaPicker.tsx
+|   |       
+|   +---property
+|   |       PropertyFacilities.tsx
+|   |       PropertyFinancialCards.tsx
+|   |       PropertyHero.tsx
+|   |       PropertyInstallmentCalculator.tsx
+|   |       PropertyRelatedUnits.tsx
+|   |       PropertySpecifications.tsx
+|   |       PropertyWhatsAppCTA.tsx
+|   |       
+|   +---property-builder
+|   |   |   BasicInfo.tsx
+|   |   |   cloudinary.ts
+|   |   |   DynamicSections.tsx
+|   |   |   FloorPlanManager.tsx
+|   |   |   GalleryManager.tsx
+|   |   |   hooks.ts
+|   |   |   Location.tsx
+|   |   |   media.ts
+|   |   |   MediaGrid.tsx
+|   |   |   MediaLibrary.tsx
+|   |   |   MediaSelector.tsx
+|   |   |   models.ts
+|   |   |   property-api.ts
+|   |   |   PropertyBuilder.tsx
+|   |   |   PropertyDetails.tsx
+|   |   |   SaveButton.tsx
+|   |   |   Seo.tsx
+|   |   |   store.tsx
+|   |   |   types.ts
+|   |   |   VideoManager.tsx
+|   |   |   
+|   |   +---providers
+|   |   |       CloudflareR2Provider.ts
+|   |   |       CloudflareStreamProvider.ts
+|   |   |       CloudinaryProvider.ts
+|   |   |       UploadEngine.ts
+|   |   |       
+|   |   \---upload
+|   |           BasePicker.tsx
+|   |           ChunkUploader.ts
+|   |           contracts.ts
+|   |           DocumentPicker.tsx
+|   |           events.ts
+|   |           hooks.ts
+|   |           ImagePicker.tsx
+|   |           ProgressManager.ts
+|   |           providerFactory.ts
+|   |           types.ts
+|   |           uploadConfig.ts
+|   |           UploadDialog.tsx
+|   |           UploadEngine.ts
+|   |           UploadQueue.ts
+|   |           UploadSession.ts
+|   |           UploadStorage.ts
+|   |           VideoPicker.tsx
+|   |           
+|   +---property-editor
+|   |       property-sections.ts
+|   |       PropertyEditor.tsx
+|   |       PropertySection.tsx
+|   |       SectionPicker.tsx
+|   |       types.ts
+|   |       
+|   +---rent
+|   |   +---Areas
+|   |   |       RentAreas.tsx
+|   |   |       
+|   |   +---Calculator
+|   |   |       RentCalculator.tsx
+|   |   |       
+|   |   +---CTA
+|   |   |       RentCTA.tsx
+|   |   |       
+|   |   +---data
+|   |   |       rentAreas.ts
+|   |   |       rentCategories.ts
+|   |   |       rentFAQ.ts
+|   |   |       rentFeatured.ts
+|   |   |       rentFilters.ts
+|   |   |       rentTestimonials.ts
+|   |   |       
+|   |   +---FAQ
+|   |   |       RentFAQ.tsx
+|   |   |       
+|   |   +---Featured
+|   |   |       RentFeatured.tsx
+|   |   |       
+|   |   +---Hero
+|   |   |       RentHero.tsx
+|   |   |       
+|   |   +---hooks
+|   |   |       useRentSearch.ts
+|   |   |       
+|   |   +---Process
+|   |   |       index.ts
+|   |   |       RentProcess.tsx
+|   |   |       
+|   |   +---RentalExperiences
+|   |   |       index.ts
+|   |   |       RentalExperiences.tsx
+|   |   |       
+|   |   +---Search
+|   |   |       index.ts
+|   |   |       RentSearch.tsx
+|   |   |       RentSearchFilters.tsx
+|   |   |       RentSearchResults.tsx
+|   |   |       
+|   |   +---Testimonials
+|   |   |       index.ts
+|   |   |       RentTestimonials.tsx
+|   |   |       
+|   |   +---types
+|   |   |       RentSearch.ts
+|   |   |       rentSearchHelpers.ts
+|   |   |       
+|   |   \---utils
+|   |           getProjectCover.ts
+|   |           rentSearchHelpers.ts
+|   |           rentSearchMapper.ts
+|   |           
+|   \---residential
+|       +---Categories
+|       |       ResidentialCategories.tsx
+|       |       
+|       +---data
+|       |       apartments.ts
+|       |       index.ts
+|       |       residentialTypes.ts
+|       |       specifications.ts
+|       |       template.ts
+|       |       types.ts
+|       |       
+|       +---Hero
+|       |       ResidentialHero.tsx
+|       |       
+|       +---MegaMenu
+|       |   |   ResidentialMegaMenu.tsx
+|       |   |   
+|       |   \---components
+|       |           ResidentialAdvantages.tsx
+|       |           ResidentialFAQ.tsx
+|       |           ResidentialFeatures.tsx
+|       |           ResidentialGallery.tsx
+|       |           ResidentialInformation.tsx
+|       |           ResidentialOverview.tsx
+|       |           ResidentialTabs.tsx
+|       |           ResidentialVideo.tsx
+|       |           
+|       \---store
+|               ResidentialContext.tsx
+|               
++---hooks
+|       useLanguage.ts
+|       useWhatsapp.ts
+|       
++---i18n
+|       ar.ts
+|       en.ts
+|       index.ts
+|       types.ts
+|       
++---importers
+|       excelImporter.ts
+|       pdfImporter.ts
+|       
++---intelligence
+|       investmentScore.ts
+|       recommendationEngine.ts
+|       rentalScore.ts
+|       roiEngine.ts
+|       
++---lib
+|       api.ts
+|       cloudinary.ts
+|       constants.ts
+|       helpers.ts
+|       prisma.ts
+|       r2.ts
+|       uploadProviders.ts
+|       
++---messages
+|   |   ar.json
+|   |   de.json
+|   |   en.json
+|   |   ru.json
+|   |   sk.json
+|   |   
+|   +---ar
+|   +---de
+|   +---en
+|   +---ru
+|   \---sk
++---models
+|   \---property
+|           Property.ts
+|           
++---Modules
+|   \---Identity
+|           AuditRepository.ts
+|           AuthService.ts
+|           IdentityConstants.ts
+|           SessionRepository.ts
+|           SessionToken.ts
+|           uditRepository.ts
+|           UserRepository.ts
+|           
++---repositories
+|       PropertyRepository.ts
+|       
++---sdk
+|       createSPEDO.ts
+|       index.ts
+|       ProjectsSDK.ts
+|       SearchSDK.ts
+|       SPEDO.ts
+|       
++---seo
+|       metadata.ts
+|       schema.ts
+|       
++---services
+|   |   index.ts
+|   |   project.service.ts
+|   |   property.service.ts
+|   |   
+|   +---media
+|   |       media.mapper.ts
+|   |       media.repository.ts
+|   |       media.service.ts
+|   |       media.types.ts
+|   |       
+|   +---project
+|   |       index.ts
+|   |       ProjectService.ts
+|   |       
+|   +---search
+|   |       SearchNormalizer.ts
+|   |       SearchService.ts
+|   |       
+|   \---services
+|           ServiceHero.tsx
+|           
++---store
+|   +---media
+|   |       MediaContext.tsx
+|   |       
+|   \---residential
+|           ResidentialActions.ts
+|           ResidentialSelectors.ts
+|           ResidentialState.ts
+|           ResidentialStore.ts
+|           
++---styles
+|       theme.ts
+|       
++---types
+|   |   area.ts
+|   |   project.ts
+|   |   ProjectDeveloper.ts
+|   |   ProjectDocument.ts
+|   |   ProjectGallery.ts
+|   |   ProjectLocation.ts
+|   |   ProjectMasterPlan.ts
+|   |   ProjectPaymentPlan.ts
+|   |   ProjectStatistics.ts
+|   |   ProjectUnit.ts
+|   |   ProjectVideo.ts
+|   |   property-v2.ts
+|   |   property.ts
+|   |   
+|   +---auth
+|   |       permissionMatrix.ts
+|   |       Permissions.ts
+|   |       UserRole.ts
+|   |       
+|   \---property
+|           Availability.ts
+|           index.ts
+|           Payment.ts
+|           Property.ts
+|           Seo.ts
+|           Source.ts
+|           Statistics.ts
+|           
++---ui
+|   |   index.ts
+|   |   
+|   +---components
+|   |   +---Button
+|   |   |       Button.tsx
+|   |   |       index.ts
+|   |   |       
+|   |   +---Container
+|   |   |       Container.tsx
+|   |   |       index.ts
+|   |   |       
+|   |   +---Section
+|   |   |       index.ts
+|   |   |       Section.tsx
+|   |   |       
+|   |   +---Stack
+|   |   |       index.ts
+|   |   |       Stack.tsx
+|   |   |       
+|   |   \---Text
+|   |           index.ts
+|   |           Text.tsx
+|   |           
+|   +---hooks
+|   +---layouts
+|   +---providers
+|   +---responsive
+|   \---theme
+|           breakpoints.ts
+|           colors.ts
+|           index.ts
+|           radius.ts
+|           shadows.ts
+|           spacing.ts
+|           typography.ts
+|           
++---upload
+|   |   ChunkUploader.ts
+|   |   Hash.ts
+|   |   RetryManager.ts
+|   |   UploadEngine.ts
+|   |   UploadProgress.ts
+|   |   UploadQueue.ts
+|   |   UploadSession.ts
+|   |   
+|   \---providers
+|           CloudinaryProvider.ts
+|           R2MultipartProvider.ts
+|           
+\---utils
+        faqRecommendationEngine.ts
+        
+Folder PATH listing
+Volume serial number is 000000F7 D403:F2A3
+C:\USERS\HP\DESKTOP\SPEDO\SPEDO-REAL-ESTATE\PRISMA
+|   schema.prisma
+|   Seed.js
+|   spedo.db
+|   
+\---migrations
+    |   migration_lock.toml
+    |   
+    +---20260713140749_init_media
+    |       migration.sql
+    |       
+    +---20260714122249_property_builder_v1
+    |       migration.sql
+    |       
+    \---20260718164214_identity
+            migration.sql
+            

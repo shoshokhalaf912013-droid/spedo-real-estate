@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  background: #111827;
+  color: white;
+}
+
+select option {
+  background: #111827;
+  color: white;
+}
+
+input,
+textarea {
+  color: white;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Cards */
+
+.bg-card {
+  background-color: #1e293b;
+  color: var(--foreground);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.06);
+}
+
+/* Luxury Font */
+
+.font-luxury {
+  font-family: var(--font-playfair);
+}
+
+/* Global Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #F97316;
+}
+
+/* =========================================================
+   Property New Page — Readability Fix Only
+   ========================================================= */
+
+.property-new-page {
+  color: #e2e8f0;
+}
+
+.property-new-page .text-red-200 {
+  color: #fecaca !important;
+}
+
+.property-new-page .text-red-300 {
+  color: #fca5a5 !important;
+}
+
+.property-new-page .text-emerald-200 {
+  color: #a7f3d0 !important;
+}
+
+.property-new-page .text-slate-200 {
+  color: #e2e8f0 !important;
+}
+
+.property-new-page .text-slate-300 {
+  color: #cbd5e1 !important;
+}
+
+.property-new-page .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+.property-new-page .text-slate-500 {
+  color: #64748b !important;
+}
