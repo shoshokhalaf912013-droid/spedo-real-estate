@@ -2,16 +2,19 @@
   "name": "spedo-real-estate",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "prismaGenerate": "prisma generate",
-    "prismaMigrate": "prisma migrate dev",
-    "prismaStudio": "prisma studio",
-    "prismaSeed": "prisma db seed"
-  },
+  
+"scripts": {
+  "dev": "next dev",
+  "build": "prisma generate && next build",
+  "start": "next start",
+  "lint": "eslint",
+  "postinstall": "prisma generate",
+  "prismaGenerate": "prisma generate",
+  "prismaMigrate": "prisma migrate dev",
+  "prismaStudio": "prisma studio",
+  "prismaSeed": "prisma db seed"
+}
+
   "prisma": {
     "seed": "node prisma/Seed.js"
   },
