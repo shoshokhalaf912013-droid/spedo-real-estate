@@ -4,9 +4,11 @@ import {
     PutObjectCommand,
 } from "@aws-sdk/client-s3";
 
-import r2 from "@/lib/r2";
+import { getR2Client } from "@/lib/r2";
 
 import { prisma } from "@/lib/prisma";
+
+const r2 = getR2Client();
 
 export async function POST(
     request: NextRequest
